@@ -1,8 +1,30 @@
-pandas
-numpy
-matplotlib
-scipy
-statsmodels
-jupyter
-pytest
-openpyxl
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Pytest
+.pytest_cache/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
